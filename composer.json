@@ -1,0 +1,20 @@
+{
+    "name": "kostikas/git-logger",
+    "description": "View your latest commits in a nice interface",
+    "type": "library",
+    "require": {
+        "../../vendor/symfony/process": "6.2.x-dev"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Kostikas\\GitLogger\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kostikas"
+        }
+    ],
+    "minimum-stability": "dev"
+}
